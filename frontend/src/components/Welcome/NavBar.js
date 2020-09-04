@@ -24,14 +24,14 @@ export default function NavBar({ setLoggedIn }) {
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <div class="nav-link pointer" href="">
-                                <Popup trigger={<span><b>Login</b> </span>} modal position="left top"
+                            <a class="nav-link pointer" href="/"> Login
+                                {/* <Popup trigger={<span><b>Login</b> </span>} modal position="left top"
                                     closeOnDocumentClick>
                                     <div>
                                         <Login setLoggedIn={setLoggedIn} />
                                     </div>
-                                </Popup>
-                            </div>
+                                </Popup> */}
+                            </a>
 
                         </li>
                         <li class="nav-item">

@@ -11,8 +11,8 @@ const corsDataVis = "https://cors-anywhere.herokuapp.com/https://datavisbackend.
 const Login = ({ setLoggedIn }) => {
     //states for current inputs in login field
     const [inputs, setInputs] = useState({
-        email: "",
-        password: "",
+        email: "test@testmail.com",
+        password: "Test1234!",
     });
 
     //get varibles from the state

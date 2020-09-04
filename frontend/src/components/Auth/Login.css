@@ -27,6 +27,7 @@ box-shadow: 5px 5px 20px grey;
   }
 
   .popup-content {
+    margin-top: 100px !important;
     padding: 2% 1% 2% 1% !important;
     width: 400px !important;
     border-radius: 8px !important;
