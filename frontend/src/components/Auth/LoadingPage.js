@@ -44,7 +44,7 @@ export default function LoadingPage({ name, setName, setLoggedIn }) {
                 </Fragment>}
 
 
-            />
+
 
         </div>
     )
